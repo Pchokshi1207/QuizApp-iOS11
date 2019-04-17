@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     let allQuestions=QuestionBank()
     var pickedAnswer:Bool=false
-    var questionNumber:Int = 0
+    var questionNumber:Int = 9
     var score:Int=0
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
